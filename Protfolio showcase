@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Portfolio Showcase</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>My Portfolio</h1>
+
+    <nav>
+
+      <ul>
+
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#projects">Projects</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <section id="about">
+
+    <h2>About Me</h2>
+
+    <p>Write a brief description about yourself and your skills.</p>
+
+  </section>
+
+  <section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project">
+
+      <img src="project1.jpg" alt="Project 1">
+
+      <h3>Project 1</h3>
+
+      <p>Description of project 1.</p>
+
+      <a href="#">View Project</a>
+
+    </div>
+
+    <div class="project">
+
+      <img src="project2.jpg" alt="Project 2">
+
+      <h3>Project 2</h3>
+
+      <p>Description of project 2.</p>
+
+      <a href="#">View Project</a>
+
+    </div>
+
+    <!-- Add more project divs as needed -->
+
+  </section>
+
+  <section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <form>
+
+      <input type="text" placeholder="Your Name">
+
+      <input type="email" placeholder="Your Email">
+
+      <textarea placeholder="Your Message"></textarea>
+
+      <button type="submit">Send Message</button>
+
+    </form>
+
+  </section>
+
+  <footer>
+
+    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+
+  </footer>
+
+</body>
+
+</html>
